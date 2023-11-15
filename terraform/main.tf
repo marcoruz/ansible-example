@@ -11,7 +11,6 @@ terraform {
 
 provider "aws" {
   region = var.region
-  profile = var.aws_profile
+  profile = "598990243446_Student" # BITTE DEIN AWS PROFILE EINTRAGEN
 }
-
 
